@@ -1,0 +1,26 @@
+/*DEMOSTRACION DE COMO ANADIRLE ESTILOS A CLASES, ID O CONJUNTO DE LISTAS. */
+
+/*REPRESENTACION DE CUANDO UTILIZAMOS CLASES.*/
+.faltante {
+    color: red;
+}
+
+/*REPRESENTACION DE CUANDO UTILIZAMOS LISTAS. */
+li {
+    color: red;
+}
+
+/*REPRESENTACION DE CUANDO UTILIZAMOS CLASES. */
+.disponibles {
+    color: chartreuse;
+}
+
+/*REPRESENTACION DE CUANDO UTILIZAMOS ID. */
+#carrera-pocaestudiada {
+    color: blueviolet;
+}
+
+/*REPRESENTACION DE CUANDO UTILIZAMOS CLASES. */
+.carrera-pocaestudiada {
+    color: blueviolet;
+}
