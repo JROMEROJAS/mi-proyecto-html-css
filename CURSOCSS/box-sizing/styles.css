@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.box-default {
+    box-sizing: border-box; /* FORMA MODERNA DE UTILIZAR EL CALCULO DEL TANANO DE CAJAS.*/
+    padding: 25px;
+    border: 10px solid black;
+}
+
+.box-new {
+    box-sizing: border-box; /* FORMA MODERNA DE UTILIZAR EL CALCULO DEL TANANO DE CAJAS.*/
+    padding: 25px;
+    border: 10px solid black;
+}

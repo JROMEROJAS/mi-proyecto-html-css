@@ -1,0 +1,34 @@
+body{
+    background-color: darkgray; /* COLOR DEL FONDO.*/
+    font-family: sans-serif; /* TIPOGRAFIA.*/
+    color: aliceblue; /* COLOR.*/
+}
+
+.card {
+    background-color: cornflowerblue; /* COLOR DEL FONDO.*/
+    text-align: center; /* COLOR DEL FONDO.*/
+    width: 700px; /* ESTABLECE EL ANCHO DEL AREA DE CONTENIDO DE UN ELEMENTO, QUE ES EL ESPACIO DENTRO DEL RELLENO, EL BORDE Y EL MARGEN.*/
+    margin: auto; /* FORMA CORRECTA DE CENTRAR UN ELEMENTO.*/
+    margin-top: 20px; /* AGREGARLE 20PX A LA CAJA ARRIBA.*/
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    padding: 20px;
+    background-color: darkseagreen;
+    text-align: justify;
+}

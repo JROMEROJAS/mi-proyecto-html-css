@@ -1,0 +1,28 @@
+.formulario {
+    background: burlywood; 
+    /*
+    padding-top: 10px; ME SEPARA EL CONTENIDO CON EL BORDE DE ARRIBA 10PX.
+    padding-bottom: 10px;  ME SEPARA EL CONTENIDO CON EL BORDE DE ABAJO 10PX
+    padding-left: 10px; ME SEPARA EL CONTENIDO CON EL BORDE DE LA IZQUIERDA 10PX.
+    padding-right: 10px;  ME SEPARA EL CONTENIDO CON EL BORDE DE LA DERECHA 10PX. 
+    */
+
+    padding: 30px; /*SI QUEREMOS REDUCIR TODO LO ANTERIOR A UNA SOLA FILA, PUES PODEMOS UTILIZAR EL COMANDO PADDING QUE ES LO MISMO SOLO QUE ESTE LO APLICA EN TODAS LA DIRECCIONES, ES DECIR, ARRIBA, A LA DERECHA, A ABAJO Y A LA IZQUIERDA (VA EN EL SENTIDO DEL RELOJ). */
+
+}
+
+.formulario_input {
+    padding: 9px 12px;
+    width: 90%;
+    background: darkgray;
+    color: black;
+    margin: 10px;
+}
+
+.formulario_sumit {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: darkgray;
+    width: 25%;
+    color: black;
+}
