@@ -1,0 +1,25 @@
+/* FORMA CORRECTA DE UTILIZAR O INSERTAR LOS TIPOS DE TIPOGRAFIA QUE QUIERO MANEJAR EN MI PROYECTO. ESTO CON EL FIN DE TENER MAYOR ORGANIZACION Y DIVISIO EN LAS DIFERENTES CARPETAS.*/
+
+@font-face {
+    font-family: "Juanjo";
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Juanjo";
+    src: url(fonts/Montserrat-Bold.ttf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Juanjo";
+    src: url(fonts/Montserrat-ExtraBold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Juanjo";
+    src: url(fonts/Montserrat-Black.ttf) format("truetype");
+    font-weight: 900;
+}

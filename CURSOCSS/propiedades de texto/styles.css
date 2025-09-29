@@ -1,0 +1,28 @@
+p {
+    color: black;
+    font-family: Juanjo; /* EL COMANDO FONT-FAMILY SE UTILIZA PARA ASIGNAR UNA FUENTE AL TEXTO SELECCIONADO.*/
+    font-size: 13px; /* CAMBIAR EL TAMANO DE TEXTO.*/
+    font-weight: bold; /* DEFINE EL GROSOR DE LA TIPOGRAFIA.(GENERALMENTE SE UTILIZA PARA RESALTAR ALGO).*/
+    font-style: italic; /* CONFIGURAR EL ESTILO DE LA TIPOGRAFIA.*/
+    text-align: justify; /* CONFIGURAR LA ALINEACION QUE QUIERO QUE TENGA EL TEXTO.*/
+    line-height: normal; /* CONFIGURAR LA SANGRIA QUE YO QUIERO ENTRE LINEAS.*/
+    letter-spacing: normal; /*CONFIGURAR EL ESPACIO ENTRE LAS LETRAS.*/
+    text-transform: none; /* CONFIGURAR TODO EL TEXTO COMO YO QUIERA.*/
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+span {
+    text-decoration: line-through;/* SIRVE PARA PONERLE DIFERENTES DECORACIONES AL TEXTO (COMO TACHARLO Y DEMAS).*/
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+
