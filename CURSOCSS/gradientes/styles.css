@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #FFE5B4
+}
+
+.box {
+    width: 900px;
+    height: 500px;
+    background: linear-gradient(#C5E0DC, #66573f);
+    /* EXISTEN VARIOS TIPOS DE GRADIENTES, EN ESTE CASO TENEMOS UN PRIMERO QUE SON LOS GRADIENTES LINEALES, QUE ES UNA FUNCION QUE RECIBE DOS PARAMETROS PARA HACER ALGO CON ELLOS, ESTOS DOS PARAMETROS SON COLORES.*/
+    /* EN CASO TAL NO QUERAMOS QUE EL DEGRADADO SEA DE ABAJO HACIA ARRIBA Y LO QUE QUEREMOS ES QUE SE PUEDA DE IZQUIERDA HACIA DERECHA O DE DERECHA HACIA IZQUIERDA, LO QUE DEBEMOS HACER ES USAR EL COMANDO "TO RIGHT" IGUAL "TO LEFT" O TAMBIEN "TO BOTTON" O TAMBIEN "TO TOP". TAMBIEN PODEMOS DARLE MAS DE UN COLOR.*/
+    /* ADEMAS DE ESTO TAMBIEN EXISTE UN COMANDO QUE ES EL "RADIAL-GRADIENT" QUE ESTO BASICAMENTE LO QUE HACE ES DEGRADARME TODO EL ELEMENTO PERO EN FORMA DE RADIO, ES DECIR, EN FORMA DE CIRCULO SE UTILIZA PARA OCASIONES ESPECIALES.*/
+    margin: 0;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 3px solid #66573f;
+    background: linear-gradient(#C5E0DC, #66573f);
+    
+}
+
+.box1 {
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(#C5E0DC, #66573f);
+    margin: 0;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 3px solid #66573f;
+    background: linear-gradient(#C5E0DC, #66573f);
+}
+
+img {
+    width: 250px;
+    height: 140px;
+}
+
+h1 {
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    color: black;
+    text-align: justify;
+}
+

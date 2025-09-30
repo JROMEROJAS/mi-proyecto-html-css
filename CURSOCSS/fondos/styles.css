@@ -1,0 +1,39 @@
+body {
+    background-color: #9b9b9b;
+    margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.box {
+    width: 765px;
+    height: 800px;
+    background-image: url("https://imgs.search.brave.com/xcZbGvt9d4trwnyCSUSTghzfVy-BF3uur96bHsJqOwE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzMwL2I1/LzU4LzMwYjU1OGY3/MzRmOTczNzljMTk4/ZmQwNmE1NWQxZjY2/LmpwZw");
+    background-size: contain; /* ESTA PROPIEDAD CONTAIN OBLIGA AL CONTENEDOR A ADAPTARSE PARA QUE LA IMAGEN ENTRE CORRECTAMENTE.*/
+    background-size: cover; /* HACE QUE LA IMAGEN SE ADAPTE NO IMPORTANDO LA RESOLUCION, LA IMAGEN DEBE ENTRAR COMPLETAMENTE A LA PANTALLA.*/
+    background-position: center; /* CON ESTA PROPIEDAD PODEMOS CONFIGURAR LA IMAGEN EN LA DIRECCION QUE NOSOTROS QUERAMOS, BIEN YA SEA PARA ABAJO "BOTTOM", PARA ARRIBA "TOP", BIEN YA SEA PARA LA IZQUIERDA "LEFT", BIEN YA SEA PARA LA DERECHA "RIGTH" Y CENTER PUES EL CENTRO.*/
+    margin: 0;
+    background-attachment: fixed; /* ME PERMITE REALIZAR UN EFECTO MUY FACHERO CON EL SCROLL PARA CUANDO ESTAMOS TRABAJANDO CON ALGUNA PAGINA PARA MOSTRAR ALGUNA IMAGEN.*/
+
+    /* COMO DATO IMPORTANTE YO TAMBIEN PUEDO UTILIZAR TODAS ESTAS PROPIEDADES DE BACKGROUND EN UNA SOLA PROPIEDAD QUE BASICAMENTE SE VA A LLAMAR "BACKGROUNG" ESTA SE DIVIDE DE LA SIGUIENTE ESTRUCTURA: URL + DESPUES NOS PIDE LA POSICION + DESPUES NOS PIDE EL SIZE + DESPUES VIENE EL ATTACHMENT + DESPUES EL COLOR.*/
+}
+
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+}
+
+h2 {
+    text-align: center;
+    padding: 300px;
+    color: #0022FF
+}
